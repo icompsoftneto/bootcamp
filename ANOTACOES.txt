@@ -1,11 +1,11 @@
-Node.js
+Node.js:
  Não lidamos com eventos do usuário final;
  Rotas e integrações;
 Plataforma (não linguagem);
 Construída em cima da V8;
 Comparável a PHP / Ruby ; Python / Go;
 
-NPM
+NPM:
 Instalar bibliotecas de terceiros;
 Fornecer bibliotecas;
 Por que utilizaremos o Yarn?
@@ -14,32 +14,31 @@ Comparáveis:
  Gems do Ruby;
  PIP do Python
 
-Características do Node
+Características do Node:
 Arquitetura Event-loop
  Baseada em eventos (rotas na maioria das vezes)
  Call stack
 Node é single-thread
- c++ por trás
- background threads
+ C++ por trás
+ Background threads
 Non-blocking I/O
 
-Frameworks
+Frameworks:
 Expressos como base
- sem opiniao (aberto)
- ótimo para iniciar (aprender poucos conceitos)
- micro-serviços
+ Sem opiniao (aberto)
+ Otimo para iniciar (aprender poucos conceitos)
+ Micro-serviços
 Frameworks opinados
  AdonisJS
  NestJS
 
-Como funciona API
+Como funciona API:
 Fluxo de requisição e resposta
  Requisição é feita por um cliente (brownser)
  Resposta retornada através de estrutura de dados
- cliente recebe respostas e processa resultado
+ Cliente recebe respostas e processa resultado
 
 As rotas utilizam métodos HTTP:
-
 MÉTODO || RECURSO/ROTA || PARÂMETRO
  GET http://minhaapi.com/users
  POST http://minhaapi.com/users
@@ -49,21 +48,18 @@ MÉTODO || RECURSO/ROTA || PARÂMETRO
 Benefícios
 Múltiplos clientes (front-end) utilizando o mesmo back-end
 Protocolo de comunicação padronizado
- mesma estrutura para web / mobile / API publica
- comunicação com serviços externos
-
-===========
-
+ Mesma estrutura para web / mobile / API publica
+ Comunicação com serviços externos
+====================================================================
 JSON (JavaScript Object Notation)
-
-Conteúdo da requisição
+====================================================================
+Conteúdo da requisição:
 GET http://api.com/company/1/users?page=2
-
-ROUTE: company/users
-ROUTE PARAMS: 1
-QUERY PARAMS: ?page=2
-=============================
-HTTP Codes
+ ROUTE: company/users
+ ROUTE PARAMS: 1
+ QUERY PARAMS: ?page=2
+====================================================================
+HTTP Codes:
 Código de 3 dígitos que significa qual foi o status da resposta:
 
 1xx: informativo
@@ -71,26 +67,23 @@ Código de 3 dígitos que significa qual foi o status da resposta:
 3xx: redirecionamento
 4xx: erros do cliente (algo faltando na sua requisição pro servidor)
 5xx: erros de servidor
-
-=============================================================
+====================================================================
 MÉTODOS HTTP:
 GET: buscar informacoes do backend
 POST: criar uma informacao no backend
 PUT/PATCH: alterar informacao no backend
 DELETE: deletar informacao no backend
-------------------------------------------
+--------------------------------------------------------------------
 TIPOS DE PARAMETROS:
 Query Params: filtros e paginacao
 Route Params: identificar recursos (atualizar ou deletar)
 Request Body: conteudo na hora de criar ou editar um recurso (atraves de JSON)
-------------------------------------------
-MIDDLEWARE: função
+--------------------------------------------------------------------
+MIDDLEWARE: é uma função
 Interceptador de requisicoes que interrompe totalmente a 
 requisicao ou altera dados da requisicao
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-ReactJs
+====================================================================
+ReactJs:
 
 O que é?
 Biblioteca para construção de interfaces
@@ -114,12 +107,11 @@ Programação declaravita (passamos o resultado que esperamos e ela se comporta 
 IMPERATIVO vs DECLARATIVO
 Imperativo: Usar javascript para descrever para o computador o que ele precisa fazer para montrar um elemento
 Declarativo: Não dá os passos para o browser montar, apenas dá as condições para mostrar ou não um elemento
-
--------------------------------
+------------------------------------------------------------------
 JSX
 Escrever HTML dentro do JavaScript
 Com React podemos criar nossos proprios elementos
--------------------------------
+------------------------------------------------------------------
 Babel/Webpack
 O browser não entende todo esse codigo
 O babel converte o código JavaScript de uma forma que o browser entenda
@@ -127,35 +119,29 @@ Webpack possui varias funcoes:
  Criacao do bundle, arquivo com todo o codigo da aplicacao (converte varios codigos JS em um unico codigo)
  Ensinar ao JavaScript como importar arquivos CSS, imagens e etc
  Live reload com Webpack Dev Server (Refresh automatico do browser)
-
-+++++++++++++++++++++++++++++++++++++++++++++++
+==================================================================
 Babel: converter (transpilar) codigo do react para o codigo que o browser entenda
 
 Console: yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 
 Webpack: para cada tipo de arquivo (.jd, .css, .png) converte o codigo de uma maneira diferente
  Loaders: babel-loader, css-loader, image-loader, file-loader... (algo utilizado pelo webpack para dar sentido ao JS)
-
-==============================
+==================================================================
 JSX: HTML dentro do JavaScript
-==============================
-
+==================================================================
 Conceito de Fragment:
 criar um container para envolver dois ou mais componentes sem reproduzir nenhum efeito visual
-+++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 CONCEITOS IMPORTANTES DO REACT
 Componente:
 Propriedade: alguma informacao que passa de um componente pai para componante filho
 Estado & Imutabilidade: não podemos mutar variaveis (alterar formato, incluir ou excluir informacoes e maneira direta. precisa recriar)
-+++++++++++++++++++++++++++++++++
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 *IMPORTANTE*
 useState retorna um array com 2 posicoes
-1: variavel com seu valor inicial
-2: funcao para atualizarmos esse valor
-
-/////////////////////////////////
-
+1: Variavel com seu valor inicial
+2: Funcao para atualizarmos esse valor
+//////////////////////////////////////////////////////////////////
 COMANDO TERMINAL ATUALIZADO:
 yarn webpack serve --mode development
 
