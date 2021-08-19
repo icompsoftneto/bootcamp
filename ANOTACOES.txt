@@ -158,6 +158,47 @@ useState retorna um array com 2 posicoes
 2: Funcao para atualizarmos esse valor
 
 ==========================MODULO 3================================
+React Native:
+
+Versão do React para desenvolvimento mobile
+Multiplataforma (o mesmo codigo roda no Android e IOS)
+Podemos manipular cada plataforma de forma diferente
+Interface nativa (não produz interface híbrida)
+Código não é transpilado (não é totalmente convertido. Injeta dependencia no celular que passa a entender JS)
+Outras plataformas migrando, Microsoft com Windows
+
+Arquitetura:
+JS -> Metro Bundler -> Bundle -> Bridge -> ANDROID e IOS
+
+Sintaxe:
+A declaracao de componentes é igual ao Web
+Não usamos HTML e sim componentes próprios do React Native
+Aplicamos estilo sem classes ou ID's
+Todo texto é <Text/> e não existe estilizacao propria
+
+O que é Expo?
+SKD com um conjunto de funcionalidades prontas para usar no React Native (câmera, vídeo, integracoes)
+Não é necessário configurar emulador
+NÃO SERÁ UTILIZADO
+ Limitação sobre o controle do código nativo
+ Várias bibliotecas nao tem suporte para o Expo
+ O Expo liberou seu conjunto de ferramentas prontas para serem utilizadas com projetos que não utilizam Expo
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
