@@ -45,13 +45,13 @@ app.put('/projects/:id', validadeProjectId, (request, response) => {
     const projectIndex = projects.findIndex(project => project.id == id);
     if(projectIndex < 0){
         return response.status(400).json({error: 'Project not found'});
-    }
+    };
     const project = {
         id,
         title,
         owner,
-    }
-    projects [projectIndex] = project
+    };
+    projects [projectIndex] = project;
     return response.json(project);
 });
 
@@ -66,5 +66,5 @@ app.delete('/projects/:id', validadeProjectId, (request, response) => {
 });
 
 app.listen(3333, () => {
-    console.log('Back-end started! 👌')
+    console.log('Back-end started! 🚀');
 });

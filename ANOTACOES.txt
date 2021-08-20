@@ -1,6 +1,9 @@
 COMANDOS TERMINAL ATT:
 yarn webpack serve --mode development
+yarn dev
 yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+
+npx react-native run-android
 
 ==========================MODULO 1================================
 Node.js:
@@ -185,7 +188,38 @@ NÃO SERÁ UTILIZADO
  O Expo liberou seu conjunto de ferramentas prontas para serem utilizadas com projetos que não utilizam Expo
 -----------------------------------------------------------------
 
+View e Text:
+View: div, footer, header, main, aside, section
+Text: p, spam, strong, h1, h2, h3
 
+Não possuem valor semantico (significado)
+Não possuem estilizacao propria
+ Tudo precisa ser feito atraves de CSS
+Todos os componentes possuem por padrao "display: flex" (flex: 1, para aplicar à tela inteira)
+-----------------------------------------------------------------
+IOS com emulador: localhost
+IOS com físico: IP da maquina no lugar do localhost
+Android com Emulador: adb reverse tcp:3333 tcp:3333 (passando o IP da aplicacao host)
+Android com Emulador: usar IP especifico 10.0.2.2 (Android Studio)
+Android com Emulador: usar IP especifico 10.0.2.2 (Genymotion)
+Android com físico: IP da máquina 
+
+=========================MÓDULO 4================================
+TypeScript:
+
+Linguagem baseada em JavaScript com tipagens à mais e podendo acessar as features mais recentes
+
+IntelliSense
+Sem TypeScript: O editor não conhece o formato da variável user e, por isso, não consegue determinar suas propriedades
+Com TypeScript: O editor consegue saber exatamente os dados que um usuário pode ter e oferecer inteligencia de IDE
+
+Mitos e Verdade
+ TypeScript não diminui a produtividade. 
+ TypeScript não é transformar JavaScript em Java ou C#
+ TypeScript não substitui o JavaScript por completo
+ TypeScript não atrapalha quem é iniciante (até acostumar)
+ O mercado usa TypeScript 
+ 
 
 
 
