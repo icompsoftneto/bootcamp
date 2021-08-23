@@ -1,4 +1,11 @@
 COMANDOS TERMINAL ATT:
+yarn add express
+yarn add typescript -D
+yarn tsc --init
+yarn add @types/[LIB COM ERRO] -D
+
+yarn add ts-node-dev -D //converte para JavaScript e atualiza o código automaticamente
+
 yarn webpack serve --mode development
 yarn dev
 yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
@@ -220,8 +227,15 @@ Mitos e Verdade
  TypeScript não atrapalha quem é iniciante (até acostumar)
  O mercado usa TypeScript 
  
+string, number, boolean, object, Array
+interfaces
 
+=========================MODULO 5===============================
+Persistencia <-> Repositório <-> Rota
 
+FIND e CREATE
+
+Rota: Receber a requisição, chamar outro arquivo, devolver uma resposta.
 
 
 
