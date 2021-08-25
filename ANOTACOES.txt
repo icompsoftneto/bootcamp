@@ -237,8 +237,30 @@ FIND e CREATE
 
 Rota: Receber a requisição, chamar outro arquivo, devolver uma resposta.
 
+=========================MODULO 6===============================
+Docker:
+Criação de ambientes isolados (container)
+Containers expõe portas para comunicação
 
+Principais conceitos;
+Imagem
+Container //instancia de uma imagem
+Docker Registry (Docker Hub)
+Dockerfile
+ Receita de uma imagem
 
+PARA INICIAR DOCKER:
+docker ps -a
+copiar ID 
+docker start [ID]
+docker ps //ver se esta executando
+
+-----------------------------------------------------------------
+SEMPRE QUE TEMOS UMA FUNCAO async (ASSINCRONA) RETORNAMOS UMA Promise<retorno>
+-----------------------------------------------------------------
+Conceitos de JWT (Json Web Token):
+
+Metodologia de fazer autenticação em API REST 
 
 
 
