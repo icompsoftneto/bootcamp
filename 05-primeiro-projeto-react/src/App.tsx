@@ -7,9 +7,9 @@ import Routes from './routes';
 const App: React.FC = () => (
   <>
     <BrowserRouter>
-    <Routes />;
+    <Routes />
     </BrowserRouter>
     <GlobalStyle />
   </>
-); 
+)
 export default App;
