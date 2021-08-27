@@ -12,6 +12,12 @@ yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 
 npx react-native run-android
 
+PARA INICIAR DOCKER:
+docker ps -a
+copiar ID 
+docker start [ID]
+docker ps //ver se esta executando
+
 ==========================MODULO 1================================
 Node.js:
  Não lidamos com eventos do usuário final
@@ -249,11 +255,6 @@ Docker Registry (Docker Hub)
 Dockerfile
  Receita de uma imagem
 
-PARA INICIAR DOCKER:
-docker ps -a
-copiar ID 
-docker start [ID]
-docker ps //ver se esta executando
 
 -----------------------------------------------------------------
 SEMPRE QUE TEMOS UMA FUNCAO async (ASSINCRONA) RETORNAMOS UMA Promise<retorno>
