@@ -60,7 +60,7 @@ export const RepositoryInfo = styled.section`
                 }
                 strong {
                     display: block;
-                    font-size: 6px;
+                    font-size: 30px;
                     color: #3d3d4d;
                 }
 
