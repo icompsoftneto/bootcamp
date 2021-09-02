@@ -1,9 +1,9 @@
 import React from "react";
-// import { FiAlertCircle, FiXCircle } from "react-icons/fi";
 import Toast from "./Toast";
 import { useTransition, animated } from 'react-spring';
 import { ToastMessage } from "../../hooks/Toast";
 import { Container } from "./styles";
+// import { FiAlertCircle, FiXCircle } from "react-icons/fi";
 // import { isTemplateLiteral } from "typescript";
 
 
