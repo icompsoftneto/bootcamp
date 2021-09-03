@@ -263,6 +263,26 @@ Conceitos de JWT (Json Web Token):
 
 Metodologia de fazer autenticação em API REST 
 
+==========================MODULO 9===============================
+Arquitetura e testes no Node.js:
+
+PASTAS:
+src
+ config
+ database
+ errors
+ middlewares
+ models
+ repositories
+ routes
+ services
+
+Domínio: Qual a área de conhecimento daquele módulo/arquivo
+
+DDD: Domain Driven Design (metodologia)
+TDD: Test Driven Development (metodologia)
+
+ERA INDEX.TS
 
 
 
